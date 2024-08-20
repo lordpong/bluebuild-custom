@@ -1,0 +1,32 @@
+modules:
+  - type: default-flatpaks
+    notify: true # Send notification after install/uninstall is finished (true/false)
+    system:
+      repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
+      repo-name: flathub
+      repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
+      install:
+        - com.nextcloud.desktopclient.nextcloud
+        - com.rtosta.zapzap
+        - com.valvesoftware.Steam
+        - com.visualstudio.code
+        - com.yubico.yubioath
+        - fr.handbrake.ghb
+        - io.github.ungoogled_software.ungoogled_chromium
+        - io.missioncenter.MissionCenter
+        - org.filezillaproject.Filezilla
+        - org.gimp.GIMP
+        - org.keepassxc.KeePassXC
+        - org.libreoffice.LibreOffice
+        - org.sabnzbd.sabnzbd
+        - org.signal.Signal
+        - org.speedcrunch.SpeedCrunch
+        - org.telegram.desktop
+        - org.videolan.VLC
+        - org.kde.yakuake
+        - org.rncbc.qpwgraph
+        - org.kde.okular
+        - org.kde.kget
+        - org.kde.kdenlive
+        - org.kde.gwenview
+      remove:
