@@ -29,4 +29,5 @@ modules:
         - org.kde.kget
         - org.kde.kdenlive
         - org.kde.gwenview
+        - org.kde.kontact
       remove:
