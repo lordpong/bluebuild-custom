@@ -4,7 +4,8 @@ base-image: ghcr.io/ublue-os/kinoite-nvidia
 image-version: 40
 modules:
   - from-file: common-packages.yml
-  
+  - from-file: common-flatpaks.yml
+
   - type: files
     files:
       - source: system
