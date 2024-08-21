@@ -30,4 +30,5 @@ modules:
         - org.kde.kdenlive
         - org.kde.gwenview
         - org.kde.kontact
+        - uk.co.powdertoy.tpt
       remove:
