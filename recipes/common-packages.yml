@@ -16,6 +16,7 @@ modules:
       - kleopatra
       - k3b
       - btop
+      - neovim
     remove:
       - firefox
       - firefox-langpacks
