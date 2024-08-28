@@ -30,4 +30,6 @@ modules:
         - org.kde.kdenlive
         - org.kde.gwenview
         - org.kde.kontact
+        - org.darktable.Darktable
+        - com.usebottles.bottles
       remove:
