@@ -32,4 +32,5 @@ modules:
         - org.kde.kontact
         - org.darktable.Darktable
         - com.usebottles.bottles
+        - com.calibre_ebook.calibre
       remove:
