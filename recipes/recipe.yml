@@ -1,7 +1,7 @@
 name: bluebuild-custom
 description: This is my personal OS image.
 base-image: ghcr.io/ublue-os/kinoite-nvidia
-image-version: 40
+image-version: latest
 modules:
   - from-file: common-packages.yml
   - from-file: common-flatpaks.yml
