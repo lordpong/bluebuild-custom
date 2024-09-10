@@ -33,4 +33,9 @@ modules:
         - org.darktable.Darktable
         - com.usebottles.bottles
         - com.calibre_ebook.calibre
+        - net.cozic.joplin_desktop
+        - com.prusa3d.PrusaSlicer
+        - org.openscad.OpenSCAD
+        - org.freecadweb.FreeCAD
+        - org.kde.ktorrent
       remove:
