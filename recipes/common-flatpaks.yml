@@ -38,4 +38,9 @@ modules:
         - org.openscad.OpenSCAD
         - org.freecadweb.FreeCAD
         - org.kde.ktorrent
+        - org.kde.kmines
+        - org.kde.kpat
+        - org.kde.kmahjongg
+        - io.github.giantpinkrobots.flatsweep
+        - org.kde.okteta
       remove:
