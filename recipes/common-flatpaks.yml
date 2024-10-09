@@ -43,4 +43,5 @@ modules:
         - org.kde.kmahjongg
         - io.github.giantpinkrobots.flatsweep
         - org.kde.okteta
+        - com.github.tchx84.Flatseal
       remove:
