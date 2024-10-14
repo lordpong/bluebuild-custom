@@ -17,6 +17,7 @@ modules:
         - podman.socket
         - cups-browsed.service
         - usbmuxd.service
+        - zcfan.service
         - fstrim.timer    
 
   - type: signing
