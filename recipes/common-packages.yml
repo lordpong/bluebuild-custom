@@ -10,6 +10,7 @@ modules:
       - usbmuxd
       - host-spawn
       - zcfan
+      - tlp
     remove:
       - firefox
       - firefox-langpacks
