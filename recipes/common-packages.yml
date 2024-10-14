@@ -11,6 +11,9 @@ modules:
       - host-spawn
       - zcfan
       - tlp
+      - tlp-rdw
+      - powertop
     remove:
       - firefox
       - firefox-langpacks
+      - power-profiles-daemon
