@@ -16,4 +16,3 @@ modules:
     remove:
       - firefox
       - firefox-langpacks
-      - power-profiles-daemon
