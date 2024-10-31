@@ -10,8 +10,6 @@ modules:
       - usbmuxd
       - host-spawn
       - zcfan
-      - tlp
-      - tlp-rdw
       - powertop
     remove:
       - firefox
