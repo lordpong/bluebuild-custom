@@ -19,5 +19,4 @@ modules:
         - usbmuxd.service
         - zcfan.service
         - fstrim.timer    
-        - tlp.service
   - type: signing
