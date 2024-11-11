@@ -1,9 +1,9 @@
 name: bluebuild-custom
 description: This is my personal OS image.
-base-image: ghcr.io/ublue-os/kinoite-nvidia
+base-image: ghcr.io/ublue-os/kinoite-main
 image-version: latest
 modules:
-  - from-file: common-packages.yml
+  - from-file: common-packages-desktop.yml
   - from-file: common-flatpaks.yml
 
   - type: files
@@ -17,6 +17,5 @@ modules:
         - podman.socket
         - cups-browsed.service
         - usbmuxd.service
-        - zcfan.service
         - fstrim.timer    
   - type: signing

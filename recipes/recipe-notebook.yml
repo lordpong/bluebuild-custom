@@ -1,0 +1,22 @@
+name: bluebuild-custom
+description: This is my personal OS image.
+base-image: ghcr.io/ublue-os/kinoite-nvidia
+image-version: latest
+modules:
+  - from-file: common-packages-notebook.yml
+  - from-file: common-flatpaks.yml
+
+  - type: files
+    files:
+      - source: system
+        destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
+  
+  - type: systemd
+    system:
+      enabled:
+        - podman.socket
+        - cups-browsed.service
+        - usbmuxd.service
+        - zcfan.service
+        - fstrim.timer    
+  - type: signing
