@@ -36,7 +36,6 @@ modules:
         - net.cozic.joplin_desktop
         - com.prusa3d.PrusaSlicer
         - org.openscad.OpenSCAD
-        - org.freecadweb.FreeCAD
         - org.kde.ktorrent
         - org.kde.kmines
         - org.kde.kpat
