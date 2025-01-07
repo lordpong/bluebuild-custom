@@ -45,4 +45,3 @@ modules:
         - io.github.giantpinkrobots.flatsweep
         - org.kde.okteta
         - com.github.tchx84.Flatseal
-      remove:
