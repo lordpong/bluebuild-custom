@@ -11,6 +11,7 @@ modules:
       - ifuse
       - usbmuxd
       - host-spawn
+      - epson-inkjet-printer-escpr
     remove:
       - firefox
       - firefox-langpacks

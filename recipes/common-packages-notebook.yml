@@ -14,6 +14,7 @@ modules:
       - zcfan
       - powertop
       - xsane
+      - epson-inkjet-printer-escpr
     remove:
       - firefox
       - firefox-langpacks
