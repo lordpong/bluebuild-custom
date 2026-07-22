@@ -1,7 +1,7 @@
 ---
 # yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
 # image will be published to ghcr.io/<user>/<name>
-name: bluebuild-custom
+name: pietOS
 # description will be included in the image's metadata
 description: This is my personal OS image.
 
@@ -36,11 +36,24 @@ modules:
 
   - type: default-flatpaks
     configurations:
-      - notify: true # Send notification after install/uninstall is finished (true/false)
+      - notify: false # Send notification after install/uninstall is finished (true/false)
         scope: system
         # If no repo information is specified, Flathub will be used by default
         install: # system flatpaks we want all users to have and not remove
           - org.mozilla.firefox
+          - org.freedesktop.Platform.ffmpeg-full//24.08
+          - com.nextcloud.desktopclient.nextcloud
+          - com.valvesoftware.Steam
+          - com.vscodium.codium
+          - com.yubico.yubioath
+          - net.lutris.Lutris
+          - org.kde.isoimagewriter
+          - org.keepassxc.KeePassXC
+          - org.libreoffice.LibreOffice
+          - org.sabnzbd.sabnzbd
+          - org.signal.Signal
+          - org.videolan.VLC
+          - cc.arduino.IDE2
       - scope: user # Also add Flathub user repo, but no user packages
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
