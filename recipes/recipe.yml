@@ -54,6 +54,7 @@ modules:
           - org.signal.Signal
           - org.videolan.VLC
           - cc.arduino.IDE2
+          - io.github.pwr_solaar.solaar
       - scope: user # Also add Flathub user repo, but no user packages
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
